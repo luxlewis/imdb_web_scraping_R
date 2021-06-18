@@ -105,7 +105,7 @@ gross <- unlist(gross) %>%
 gross <- gross[-(101)]
 head(gross)
 
-# Combining all the lists to form a dataframe
+# # Combining all the lists to form a dataframe
 movies_df <- data.frame(Rank = rank, Title = title, Description = description,
                         Runtime = runtime, Genre = genre, Rating = rating, Metascore = metascore,
                         Votes = votes, Gross_Earning_in_Mil = gross, Director = director, Actor = actors)
